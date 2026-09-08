@@ -1,1 +1,16 @@
+# macOS / Windows OS junk
 .DS_Store
+Thumbs.db
+
+# Build output
+build/
+dist/
+out/
+target/
+
+# IntelliJ
+.idea/
+*.iml
+
+# Claude Code local permissions
+.claude/
