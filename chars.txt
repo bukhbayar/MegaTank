@@ -1,0 +1,6 @@
+// Megatank used chars
+& ? @ * # % ~ 
++ life
+- dead player
+: dead soldier
+^
