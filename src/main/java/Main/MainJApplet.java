@@ -37,6 +37,17 @@ public class MainJApplet extends JApplet implements KeyListener{
         //frame.setAlwaysOnTop(true);
         frame.setSize(920,775);
         frame.pack();
+
+        // Keyboard focus: the KeyListener above is attached to this (non-focusable by
+        // default) JApplet, so it must be made focusable and given the focus, otherwise
+        // keyPressed() never fires. The request is delayed briefly: done immediately it
+        // is silently dropped before the window finishes activating.
+        applet.setFocusable(true);
+        new javax.swing.Timer(300, new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                applet.requestFocusInWindow();
+            }
+        }).start();
     }
     
     @Override
