@@ -33,11 +33,19 @@ Start at the main menu:
 
 That's it — it's a keyboard-only game. Point, aim, shoot, repeat. 💥
 
+
+<img width="928" height="834" alt="Screenshot 2026-09-11 at 8 09 02 pm" src="https://github.com/user-attachments/assets/b0244791-4738-4f13-94f7-7ba687900318" />
+
+<img width="927" height="827" alt="Screenshot 2026-09-11 at 8 09 29 pm" src="https://github.com/user-attachments/assets/83eb7a96-e5a2-4192-afcc-71fc062a5780" />
+
+<img width="927" height="833" alt="Screenshot 2026-09-11 at 8 09 57 pm" src="https://github.com/user-attachments/assets/c9f9b821-399b-4e64-9eed-12165bc0adbe" />
+
+
 ## 📦 Building & running
 
 You'll need:
 
-- **JDK 8 or newer** (tested with JDK 21)
+- **JDK 8 or newer** (tested with Azul JDK 21)
 - **Maven 3.6+**
 
 From the project root:
